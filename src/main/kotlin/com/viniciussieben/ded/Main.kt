@@ -1,9 +1,9 @@
-package org.example
+package org.example.com.viniciussieben.ded
 
-import model.CharClass
-import model.Character
-import model.Race
-import org.example.strategy.CustomAttributeDistribution
+import com.viniciussieben.ded.model.CharClass
+import com.viniciussieben.ded.model.Character
+import com.viniciussieben.ded.model.Race
+import com.viniciussieben.ded.strategy.CustomAttributeDistribution
 
 fun main() {
     println("Bem-vindo a Dungeon & Dragons!")

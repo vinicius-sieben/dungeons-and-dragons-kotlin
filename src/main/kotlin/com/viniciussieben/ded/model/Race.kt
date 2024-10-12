@@ -1,4 +1,4 @@
-package model
+package com.viniciussieben.ded.model
 
 enum class Race (val description: String, val attributeBonuses: Map<String, Int>) {
     DWARF("Anão", mapOf("Constituição" to 2)),

@@ -1,6 +1,6 @@
-package model
+package com.viniciussieben.ded.model
 
-import strategy.AttributeDistribution
+import com.viniciussieben.ded.strategy.AttributeDistribution
 
 class Character(
     val name: String,

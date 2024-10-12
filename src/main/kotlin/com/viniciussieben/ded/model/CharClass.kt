@@ -1,4 +1,4 @@
-package model
+package com.viniciussieben.ded.model
 
 enum class CharClass(val hitDice: Int, val description: String) {
     WARRIOR(10, "Guerreiro"), // D10 para PV

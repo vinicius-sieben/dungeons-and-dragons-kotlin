@@ -1,4 +1,4 @@
-package model
+package com.viniciussieben.ded.model
 
 class Attribute (var score: Int){
     val modifier: Int

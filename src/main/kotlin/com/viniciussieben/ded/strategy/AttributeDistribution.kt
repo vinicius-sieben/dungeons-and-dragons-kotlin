@@ -1,6 +1,6 @@
-package strategy
+package com.viniciussieben.ded.strategy
 
-import model.Attributes
+import com.viniciussieben.ded.model.Attributes
 
 interface AttributeDistribution {
     fun distributeAttributes(points: Int): Attributes

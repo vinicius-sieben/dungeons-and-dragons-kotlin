@@ -1,8 +1,7 @@
-package org.example.strategy
+package com.viniciussieben.ded.strategy
 
-import model.Attribute
-import model.Attributes
-import strategy.AttributeDistribution
+import com.viniciussieben.ded.model.Attribute
+import com.viniciussieben.ded.model.Attributes
 
 class CustomAttributeDistribution : AttributeDistribution {
     override fun distributeAttributes(points: Int): Attributes {
