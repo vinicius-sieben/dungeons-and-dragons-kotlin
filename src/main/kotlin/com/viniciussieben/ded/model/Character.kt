@@ -1,13 +1,14 @@
 package com.viniciussieben.ded.model
 
 import com.viniciussieben.ded.strategy.AttributeDistribution
+import java.io.Serializable
 
 class Character(
     val name: String,
     val race: Race,
     val charClass: CharClass,
     distributionStrategy: AttributeDistribution
-) {
+) : Serializable {
     var level: Int = 1
     val attributes: Attributes = distributionStrategy.distributeAttributes(27)
     val hitPoints: Int = calculateInitialHitPoints()
