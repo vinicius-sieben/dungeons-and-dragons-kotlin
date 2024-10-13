@@ -10,7 +10,7 @@ class Character(
     distributionStrategy: AttributeDistribution
 ) : Serializable {
     var level: Int = 1
-    val attributes: Attributes = distributionStrategy.distributeAttributes(27)
+    var attributes: Attributes = distributionStrategy.distributeAttributes(27)
     val hitPoints: Int = calculateInitialHitPoints()
 
     private fun calculateInitialHitPoints(): Int {
